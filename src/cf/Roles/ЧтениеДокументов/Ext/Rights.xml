@@ -8,6 +8,10 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Вид</field>
+				<condition>ГДЕ Вид.РабочаяГруппа.Участник = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
 		</right>
 	</object>
 	<object>
@@ -71,6 +75,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.КонтактныеЛицаКонтрагентов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -187,6 +198,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
@@ -252,6 +267,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
