@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="Таблица1" id="7">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаФИО</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Таблица1КонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="Таблица1КоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="Таблица1СтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Таблица1УправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>Таблица1</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Таблица1Период" id="20">
+					<DataPath>ТаблицаФИО.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1ПериодКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="Таблица1ПериодРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="Таблица1ФизЛицо" id="23">
+					<DataPath>ТаблицаФИО.ФизЛицо</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1ФизЛицоКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="Таблица1ФизЛицоРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="Таблица1Фамилия" id="26">
+					<DataPath>ТаблицаФИО.Фамилия</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1ФамилияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="Таблица1ФамилияРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="Таблица1Имя" id="29">
+					<DataPath>ТаблицаФИО.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1ИмяКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="Таблица1ИмяРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="Таблица1Отчество" id="32">
+					<DataPath>ТаблицаФИО.Отчество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1ОтчествоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="Таблица1ОтчествоРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ТаблицаФИО" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица ФИО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ФИО</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
