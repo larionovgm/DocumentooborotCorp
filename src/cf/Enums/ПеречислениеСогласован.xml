@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="e277649e-96dc-4bfc-8f66-2a1924d7995a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПеречислениеСогласован" category="Ref">
+				<xr:TypeId>f6abcbcf-b2d7-4379-8f46-f53b809429da</xr:TypeId>
+				<xr:ValueId>85c0f0c5-7fd1-413f-a5fd-4a8cc4a5166f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПеречислениеСогласован" category="Manager">
+				<xr:TypeId>cb6b62e5-101d-47a2-b325-9bcb51d7cc1e</xr:TypeId>
+				<xr:ValueId>53fcd9f5-2ad8-4859-b4f9-e18b8b4ac4ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПеречислениеСогласован" category="List">
+				<xr:TypeId>d9c6e1e5-b1f3-4410-a482-eb41708b23e3</xr:TypeId>
+				<xr:ValueId>ac7c02d9-0b7b-41ed-b92d-64ced2312c51</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеречислениеСогласован</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечисление согласован</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="024c66b6-11df-4474-b37a-d1b5ff94aeaa">
+				<Properties>
+					<Name>Согласован</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Согласован</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="eb9c5032-6c87-4cb5-a424-9e11d25eeb05">
+				<Properties>
+					<Name>НеСогласован</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не согласован</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
