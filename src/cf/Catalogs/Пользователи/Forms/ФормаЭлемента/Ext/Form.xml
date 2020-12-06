@@ -57,6 +57,11 @@
 			<ContextMenu name="РольКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="12"/>
 		</RadioButtonField>
+		<InputField name="Подразделение" id="13">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="15"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
