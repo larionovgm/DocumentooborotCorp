@@ -63,6 +63,11 @@
 			<ContextMenu name="СогласованКонтекстноеМеню" id="48"/>
 			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="49"/>
 		</InputField>
+		<InputField name="Проект" id="50">
+			<DataPath>Объект.Проект</DataPath>
+			<ContextMenu name="ПроектКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="52"/>
+		</InputField>
 		<InputField name="Комментарий" id="22">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
