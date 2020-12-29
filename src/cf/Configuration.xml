@@ -201,6 +201,7 @@
 			<CommonModule>ПолучитьТекущегоПользователя</CommonModule>
 			<CommonModule>ПолнотекстовыйПоискПоСодержимомуФайлов</CommonModule>
 			<CommonModule>РаботаСФайламиКлиентСервер</CommonModule>
+			<CommonModule>РаботаСТекущимПользователемПолныеПрава</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
 			<ScheduledJob>ОбновлениеИндексаФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
