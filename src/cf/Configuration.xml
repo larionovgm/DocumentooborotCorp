@@ -222,6 +222,7 @@
 			<InformationRegister>ФИО</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
+			<Task>ЗадачаПользователя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
